@@ -115,7 +115,7 @@ Yudhistira akan digunakan sebagai DNS Master, Werkudara sebagai DNS Slave, Arjun
 
 ### Jawaban
 Kita tinggal menjalankan setting sesuai dengan instruksi diatas kemudian kita tes pada node client (Nakula/Sadewa) dengan ``` ping google.com -c 5 ```
-
+![no1](https://github.com/rayhanalmer/Jarkom-Modul-2-B26-2023/blob/main/img/soal1.jpg)
 
 ## Soal 2
 Buatlah website utama dengan akses ke arjuna.yyy.com dengan alias www.arjuna.yyy.com dengan yyy merupakan kode kelompok
@@ -154,8 +154,8 @@ service bind9 restart
 Arjuna
 ```
 echo -e '
-nameserver 192.173.1.2 # IP Yudhistira
-nameserver 192.173.2.2 # IP Werkudara
+nameserver 192.191.1.2 # IP Yudhistira
+nameserver 192.191.2.2 # IP Werkudara
 nameserver 192.168.122.1
 ' > /etc/resolv.conf
 
