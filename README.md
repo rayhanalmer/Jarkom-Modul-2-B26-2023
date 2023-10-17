@@ -162,6 +162,7 @@ nameserver 192.168.122.1
 ping arjuna.b26.com -c 5
 ping www.arjuna.b26.com -c 5
 ```
+![no2](https://github.com/rayhanalmer/Jarkom-Modul-2-B26-2023/blob/main/img/soal2.jpg)
 
 ## Soal 3
 Dengan cara yang sama seperti soal nomor 2, buatlah website utama dengan akses ke abimanyu.yyy.com dan alias www.abimanyu.yyy.com.
@@ -213,6 +214,7 @@ Lalu kita coba ping
 ping abimanyu.b26.com -c 5
 ping www.abimanyu.b26.com -c 5
 ```
+![no3](https://github.com/rayhanalmer/Jarkom-Modul-2-B26-2023/blob/main/img/soal3.jpg)
 
 ## Soal 4
 Kemudian, karena terdapat beberapa web yang harus di-deploy, buatlah subdomain parikesit.abimanyu.yyy.com yang diatur DNS-nya di Yudhistira dan mengarah ke Abimanyu
@@ -239,6 +241,7 @@ parikesit IN    A       192.173.3.2     ; IP Abimanyu' > /etc/bind/jarkom/abiman
 
 service bind9 restart
 ```
+![no4](https://github.com/rayhanalmer/Jarkom-Modul-2-B26-2023/blob/main/img/soal4.jpg)
 
 ## Soal 5
 Buat juga reverse domain untuk domain utama. (di Abimanyu saja)
